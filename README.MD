@@ -24,10 +24,12 @@ Esta API RESTful está sendo desenvolvida para estudo de TypeScript e implementa
 
 1. **Instalar o Node.js:** Acesse o site oficial https://nodejs.org/en e baixe a versão mais recente para o seu sistema operacional.
 2. **Clonar o projeto:** Utilize o comando abaixo para clonar o projeto para o seu computador.
+
     ```
     git clone https://github.com/igordmouraa/apiTest.git
     ```
 3. **Instalar as dependências:** Navegue até a pasta do projeto e execute o comando:
+
     ```
     npm install
     ```
