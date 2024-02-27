@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Esta API RESTful está sendo desenvolvida para estudo de TypeScript e implementa as funcionalidades básicas de CRUD (Criar, Ler, Atualizar, Deletar) para gerenciar clientes e suas transferencias bancarias .
+Esta API RESTful está sendo desenvolvida para estudo de TypeScript e implementa as funcionalidades básicas de CRUD (Criar, Ler, Atualizar, Deletar) para gerenciar clientes e suas transferências bancarias .
 
 ## Funcionalidades
 
@@ -11,8 +11,8 @@ Esta API RESTful está sendo desenvolvida para estudo de TypeScript e implementa
 * **Atualizar clientes:** Atualiza os dados do cliente na base de dados pelo seu ID.
 * **Deletar cliente:** Remove um cliente da base de dados pelo seu ID.
 
-* **Tranferencia de saldo:** Transfere um valor para outro cliente na base de dados.
-* **Listar transferencias:** Retorna uma lista de todas as transferências realizadas pelo cliente na base de dados pelo seu ID.
+* **Tranferência de saldo:** Transfere um valor para outro cliente na base de dados.
+* **Listar transferências:** Retorna uma lista de todas as transferências realizadas pelo cliente na base de dados pelo seu ID.
 
 ## Instalação
 
