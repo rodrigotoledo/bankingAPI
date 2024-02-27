@@ -16,10 +16,22 @@ datasource db {
 model Customer{
   id String @id @default(auto()) @map("_id") @db.ObjectId
   name String
-  email String
+  email String @unique
+  balance Float? @default(0.0)
   status Boolean
   create_at DateTime? @default(now())
-  updated_at DateTime? @default(now())
+  updated_at DateTime? @updatedAt
 
   @@map("customers")
+}
+
+model Transference{
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+  senderId String
+  receiverId String
+  amount Float
+  date DateTime
+
+  status   String   @default("pending")  // Adiciona o estado da transferência
+  errorCode String?  
 }
