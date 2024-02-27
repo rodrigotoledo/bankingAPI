@@ -1,4 +1,4 @@
-# BANKING API
+# Banking API 🏦
 
 ## Descrição
 
