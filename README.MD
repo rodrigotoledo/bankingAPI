@@ -106,3 +106,7 @@ Esta API RESTful está sendo desenvolvida para estudo de TypeScript e implementa
     "valor": 100.00 
 }
 ```
+
+## Autores
+
+- [@igordmouraa](https://www.github.com/igordmouraa) 
