@@ -22,17 +22,28 @@ Esta API RESTful está sendo desenvolvida para estudo de TypeScript e implementa
 
 **Passos:**
 
-1. **Instalar o Node.js:** Acesse o site oficial https://nodejs.org/en e baixe a versão mais recente para o seu sistema operacional.
+1. **Instalar o Node.js:** Acesse o site oficial <https://nodejs.org/en> e baixe a versão mais recente para o seu sistema operacional.
 2. **Clonar o projeto:** Utilize o comando abaixo para clonar o projeto para o seu computador.
 
-    ```
-    git clone https://github.com/igordmouraa/apiTest.git
-    ```
+```bash
+git clone https://github.com/igordmouraa/apiTest.git
+```
+
 3. **Instalar as dependências:** Navegue até a pasta do projeto e execute o comando:
 
-    ```
-    npm install
-    ```
+```bash
+npm install
+```
+
+Com isto as dependências serão instaladas.
+
+É necessario ter node instalado e o banco de dados mongo, para facilitar sobre o banco de dados mongo, já existe a pasta com o docker-compose.yml caso tenha docker instalado em sua máquina.
+]
+Então para subir o banco de dados utilizando docker compose rode:
+
+```bash
+npm run db-up
+```
 
 ## Uso
 
@@ -53,25 +64,25 @@ Esta API RESTful está sendo desenvolvida para estudo de TypeScript e implementa
 
 ### Transferências
 
-- [ ] Criar modelo de transferências (atributos, validações)
-- [ ] Criar arquivo de serviço de transferências (realizar transferências, buscar histórico)
-- [ ] Criar arquivo controlador das transferências (rotas POST, GET)
+* [ ] Criar modelo de transferências (atributos, validações)
+* [ ] Criar arquivo de serviço de transferências (realizar transferências, buscar histórico)
+* [ ] Criar arquivo controlador das transferências (rotas POST, GET)
 
 ### Implementação
 
-- [ ] Implementar rotas da API
-- [ ] Implementar lógica de negócio
-- [ ] Tratar erros e exceções
+* [ ] Implementar rotas da API
+* [ ] Implementar lógica de negócio
+* [ ] Tratar erros e exceções
 
 ### Testes
 
-- [ ] Criar testes unitários para o modelo e serviço
-- [ ] Testar integração da API
+* [ ] Criar testes unitários para o modelo e serviço
+* [ ] Testar integração da API
 
 ### Documentação
 
-- [ ] Criar documentação da API com Swagger
-- [ ] Descrever endpoints, parâmetros e respostas
+* [ ] Criar documentação da API com Swagger
+* [ ] Descrever endpoints, parâmetros e respostas
 
 ## Observações
 
@@ -101,12 +112,12 @@ Esta API RESTful está sendo desenvolvida para estudo de TypeScript e implementa
 
 ```json
 {
-    "clienteIdOrigem": "65dd2ee58a597330156be912", 
-    "clienteIdDestino": "12ad34542b873285c43a553e", 
-    "valor": 100.00 
+    "clienteIdOrigem": "65dd2ee58a597330156be912",
+    "clienteIdDestino": "12ad34542b873285c43a553e",
+    "valor": 100.00
 }
 ```
 
 ## Autores
 
-- [@igordmouraa](https://www.github.com/igordmouraa) 
+* [@igordmouraa](https://www.github.com/igordmouraa)
